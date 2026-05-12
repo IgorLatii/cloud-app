@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cloud-app
-          image: cloud-app:v1
-          imagePullPolicy: Never
+          image: ghcr.io/IgorLatii/cloud-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
