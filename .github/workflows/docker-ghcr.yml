@@ -11,7 +11,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE_NAME: ghcr.io/IgorLatii/cloud-app
+  IMAGE_NAME: ghcr.io/igorlatii/cloud-app
 
 jobs:
   build-and-push:

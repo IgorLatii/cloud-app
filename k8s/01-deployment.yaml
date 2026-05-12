@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cloud-app
-          image: ghcr.io/IgorLatii/cloud-app:latest
+          image: ghcr.io/igorlatii/cloud-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
